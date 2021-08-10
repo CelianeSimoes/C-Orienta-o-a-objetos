@@ -1,0 +1,13 @@
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\bin\Debug\netcoreapp3.1\Segundo Projeto.exe
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\bin\Debug\netcoreapp3.1\Segundo Projeto.deps.json
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\bin\Debug\netcoreapp3.1\Segundo Projeto.runtimeconfig.json
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\bin\Debug\netcoreapp3.1\Segundo Projeto.runtimeconfig.dev.json
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\bin\Debug\netcoreapp3.1\Segundo Projeto.dll
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\bin\Debug\netcoreapp3.1\Segundo Projeto.pdb
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\obj\Debug\netcoreapp3.1\Segundo Projeto.csproj.AssemblyReference.cache
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\obj\Debug\netcoreapp3.1\Segundo Projeto.AssemblyInfoInputs.cache
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\obj\Debug\netcoreapp3.1\Segundo Projeto.AssemblyInfo.cs
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\obj\Debug\netcoreapp3.1\Segundo Projeto.csproj.CoreCompileInputs.cache
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\obj\Debug\netcoreapp3.1\Segundo Projeto.dll
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\obj\Debug\netcoreapp3.1\Segundo Projeto.pdb
+C:\Users\simoes\Desktop\CELIANE.SIMOES\Curso C Sharp Completo\Segundo Projeto\Segundo Projeto\obj\Debug\netcoreapp3.1\Segundo Projeto.genruntimeconfig.cache
