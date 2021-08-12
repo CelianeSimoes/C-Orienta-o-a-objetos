@@ -3,34 +3,37 @@ using System.Globalization;
 
 namespace Segundo_Projeto
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Resolução exercício de fixação");
 
-            string produto1 = "Computador";
-            string produto2 = "Mesa de escritório";
+            
+            Console.WriteLine("Fazer um programa para le os dados de duas pessoas depois mostrar o nome da pessoa mais velha");
+            Pessoas p1 = new Pessoas();
+            Pessoas p2 = new Pessoas();
 
-            byte idade = 30;
-            int codigo = 5290;
-            char genero = 'M';
+            Console.WriteLine("Insira os dados da primeira pessoa:");
+            Console.Write("Nome: ");
+            p1.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p1.Idade = int.Parse(Console.ReadLine());
 
-            double preço1 = 2100.0;
-            double preço2 = 650.50;
-            double medida = 53.234567;
+            Console.WriteLine("Insira os dados da segunda pessoa:");
+            Console.Write("Nome: ");
+            p2.Nome = Console.ReadLine();
+            Console.Write("Idade: ");
+            p2.Idade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Produtos:");
-            Console.WriteLine($"{produto1}, cujo preço é ${preço1}");
-            Console.WriteLine($"{produto2}, cujo preço é $ {preço2}");
-
-
-            Console.WriteLine("Registro: {0} anos de idade, código {1} e genero: {2}", idade,codigo, genero);
-
-
-            Console.WriteLine(" Medida com oito casas decimais:" + medida.ToString("f8"));
-            Console.WriteLine(" Arredondado (três casas decimais): " + medida.ToString("f3"));
-            Console.WriteLine("Separador decimal invariant culture" + medida.ToString("f3", CultureInfo.InvariantCulture));
+            if (p1.Idade > p2.Idade)
+            {
+                Console.WriteLine("Pessoa mais velha: " +p1.Nome);
+            }
+            else
+            {
+                Console.WriteLine("Pessoa mais velha: " + p2.Nome);
+            }
         }
     }
+
 }
