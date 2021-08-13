@@ -8,32 +8,33 @@ namespace Segundo_Projeto
         static void Main(string[] args)
         {
 
-            
-            Console.WriteLine("Fazer um programa para le os dados de duas pessoas depois mostrar o nome da pessoa mais velha");
-            Pessoas p1 = new Pessoas();
-            Pessoas p2 = new Pessoas();
 
-            Console.WriteLine("Insira os dados da primeira pessoa:");
-            Console.Write("Nome: ");
-            p1.Nome = Console.ReadLine();
-            Console.Write("Idade: ");
-            p1.Idade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Insira os dados da segunda pessoa:");
-            Console.Write("Nome: ");
-            p2.Nome = Console.ReadLine();
-            Console.Write("Idade: ");
-            p2.Idade = int.Parse(Console.ReadLine());
+            Funcionario f1 = new Funcionario();
+            Funcionario f2 = new Funcionario();
 
-            if (p1.Idade > p2.Idade)
-            {
-                Console.WriteLine("Pessoa mais velha: " +p1.Nome);
-            }
-            else
-            {
-                Console.WriteLine("Pessoa mais velha: " + p2.Nome);
-            }
+            Console.WriteLine("Fazer um programa para ler o nome e salário de dois funcionários. Depois mostrar o salário médio dos funcionários. ");
+
+            Console.WriteLine("Insira os dados do primeiro colaborador:");
+            Console.WriteLine("Nome:");
+            f1.Nome = Console.ReadLine();
+            Console.WriteLine("Salário: ");
+            f1.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+
+            Console.WriteLine("Insira os dados do segundo colaborador:");
+            Console.WriteLine("Nome:");
+            f2.Nome = Console.ReadLine();
+            Console.WriteLine("Salário: ");
+            f2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double media = (f1.Salario + f2.Salario) / 2.0;
+
+            Console.WriteLine("Salário médio = " + media.ToString("F2", CultureInfo.InvariantCulture));
+
+
         }
     }
-
 }
+
+
