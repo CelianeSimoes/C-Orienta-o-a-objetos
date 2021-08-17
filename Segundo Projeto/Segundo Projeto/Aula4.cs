@@ -11,18 +11,17 @@ namespace Segundo_Projeto
         public static void MetodoDaAula()
         {
 
-
-
-
-            Produto p = new Produto();
+             
 
             Console.WriteLine("Entre com os dados do produto:");
             Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.Write("Preço: ");
-            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Quantidade no estoque: ");
-            p.Quantidade = int.Parse(Console.ReadLine());
+            int quantidade = int.Parse(Console.ReadLine());
+
+            Produto p = new Produto(nome, preco, quantidade);
 
             Console.WriteLine();
             Console.WriteLine("Dados do produto " + p);
@@ -39,6 +38,12 @@ namespace Segundo_Projeto
             p.RemoverProdutos(qte);
             Console.WriteLine();
             Console.WriteLine("Dados atualizados: " + p);
+
+
+
+
+
+
 
             Console.WriteLine("Exercício proposto - aplicação de mebros estáticos");
             Console.WriteLine("Fazer um programa para ler um valor numérico qualquer, e daí mostrar quanto seria o valor de uma circunferência e do volume de uma esfera para raio daqueke valor. Informar também o valor de PI com duas casas decimais");

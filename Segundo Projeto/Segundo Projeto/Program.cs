@@ -8,8 +8,8 @@ namespace Segundo_Projeto
         static void Main(string[] args)
 
         {
-            Aula4.MetodoDaAula();
 
+            Aula4.MetodoDaAula();
 
 
         }
