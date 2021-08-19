@@ -9,7 +9,7 @@ namespace Segundo_Projeto
 
         {
 
-            Aula5.MetodoDaAula();
+            Aula6.MetodoDaAula();
 
 
         }
