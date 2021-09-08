@@ -1,0 +1,4 @@
+C:\Users\simoes\Desktop\CELIANE.SIMOES\C#\Classe e metodos\obj\Debug\netcoreapp3.1\Classe e metodos.csproj.AssemblyReference.cache
+C:\Users\simoes\Desktop\CELIANE.SIMOES\C#\Classe e metodos\obj\Debug\netcoreapp3.1\Classe e metodos.AssemblyInfoInputs.cache
+C:\Users\simoes\Desktop\CELIANE.SIMOES\C#\Classe e metodos\obj\Debug\netcoreapp3.1\Classe e metodos.AssemblyInfo.cs
+C:\Users\simoes\Desktop\CELIANE.SIMOES\C#\Classe e metodos\obj\Debug\netcoreapp3.1\Classe e metodos.csproj.CoreCompileInputs.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Segundo Projeto\\Segundo Projeto\\Segundo Projeto.csproj": {}
+    "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Classe e metodos\\Classe e metodos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Segundo Projeto\\Segundo Projeto\\Segundo Projeto.csproj": {
+    "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Classe e metodos\\Classe e metodos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Segundo Projeto\\Segundo Projeto\\Segundo Projeto.csproj",
-        "projectName": "Segundo Projeto",
-        "projectPath": "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Segundo Projeto\\Segundo Projeto\\Segundo Projeto.csproj",
+        "projectUniqueName": "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Classe e metodos\\Classe e metodos.csproj",
+        "projectName": "Classe e metodos",
+        "projectPath": "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Classe e metodos\\Classe e metodos.csproj",
         "packagesPath": "C:\\Users\\simoes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Segundo Projeto\\Segundo Projeto\\obj\\",
+        "outputPath": "C:\\Users\\simoes\\Desktop\\CELIANE.SIMOES\\C#\\Classe e metodos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
