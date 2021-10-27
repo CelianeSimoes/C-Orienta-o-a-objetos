@@ -6,12 +6,12 @@ using System.Globalization;
 namespace Segundo_Projeto
 {
     class ContaBancária
-
+    #region Atributos
     {
         public int NumConta { get; private set; }
         public string Titular { get; set; }
         public double Saldo { get; private set; }
-
+        #endregion
         public ContaBancária(int numConta, string titular, double depositoInicial)
         {
             NumConta = numConta;
@@ -19,12 +19,13 @@ namespace Segundo_Projeto
             Deposito(depositoInicial);
     
         }
-
+        #region Conta Bancária
         public ContaBancária(int numConta, string titular)
         {
             NumConta = numConta;
-            Titular = titular;
+            Titular = titular;       
         }
+        #endregion
 
         public void Deposito (double quantia)
         {
